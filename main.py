@@ -2,11 +2,11 @@ import requests
 from send_email import send_email
 
 topic = "tesla"
-api_key = "6d8aab6ff7194c7095356de4d655b49e"
+api_key = ".............................."
 url = "https://newsapi.org/v2/everything?q=tesla&" \
       f"q={topic}&" \
       "sortBy=publishedAt&" \
-      "apiKey=6d8aab6ff7194c7095356de4d655b49e&" \
+      "apiKey=............................&" \
       "language=en"
 
 # Make request
